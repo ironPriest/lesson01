@@ -18,5 +18,11 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
+  },
+  "scripts": {
+        "watch": "tsc -w",
+        "dev": "yarn nodemon --inspect dist/index.js",
+        "jest": "jest -i",
+        "jest:coverage": "jest -i --coverage"
   }
 }
