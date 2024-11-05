@@ -20,9 +20,9 @@
     "typescript": "^5.6.3"
   },
   "scripts": {
-        "watch": "tsc -w",
-        "dev": "yarn nodemon --inspect dist/index.js",
-        "jest": "jest -i",
-        "jest:coverage": "jest -i --coverage"
+    "watch": "tsc -w",
+    "dev": "yarn nodemon --inspect dist/index.js",
+    "jest": "jest -i",
+    "jest:coverage": "jest -i --coverage"
   }
 }
